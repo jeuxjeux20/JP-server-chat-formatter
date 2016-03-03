@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JPServFormatWin32Portable"
         mc:Ignorable="d" ResizeMode="CanMinimize"
-        Title="MainWindow" Height="368.182" Width="504.545">
+        Title="Server Formatter" Height="368.182" Width="504.545">
     <Grid>
         <Label x:Name="ServFormatterLabel" Content="Server Formatter" Margin="75,0,67,255" FontSize="40" FontWeight="Normal" HorizontalContentAlignment="Center" Height="58" HorizontalAlignment="Center"/>
         <Label x:Name="label" Content="Type the ip here (without ws://)" Height="25" Margin="146,78,0,0" VerticalAlignment="Top" Width="219" HorizontalContentAlignment="Center" FontSize="10.667" HorizontalAlignment="Left"/>

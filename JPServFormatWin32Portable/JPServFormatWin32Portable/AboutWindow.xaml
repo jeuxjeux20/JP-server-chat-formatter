@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JPServFormatWin32Portable"
         mc:Ignorable="d"
-        Title="AboutWindow" Height="257.433" Width="422.636">
+        Title="About..." Height="257.433" Width="422.636">
+
     <Grid>
         <Label x:Name="label" Content="Server Formater" HorizontalAlignment="Center" Margin="73,10,73,0" VerticalAlignment="Top" Height="45" Width="268" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="29.333"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="89,60,87,141" TextWrapping="Wrap" Text="Created by jeuxjeux20 for the JP chat" Width="239" TextAlignment="Center"/>
