@@ -24,5 +24,10 @@ namespace JPServFormatWin32Portable
         {
             InitializeComponent();
         }
+        
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            results.Text = @"[size=30][url]http://agar.io/?ip=" + ip.Text + "[/url][/size]";
+        }
     }
 }
