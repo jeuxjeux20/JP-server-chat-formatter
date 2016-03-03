@@ -29,5 +29,17 @@ namespace JPServFormatWin32Portable
         {
             results.Text = @"[size=30][url]http://agar.io/?ip=" + ip.Text + "[/url][/size]";
         }
+
+        private void copyButton_Click(object sender, RoutedEventArgs e)
+        {
+            Clipboard.SetText(results.Text);
+        }
+
+        private void about_Click(object sender, RoutedEventArgs e)
+        {
+            AboutWindow about = new AboutWindow();
+            about.Owner = this;
+            about.ShowDialog();
+        }
     }
 }
