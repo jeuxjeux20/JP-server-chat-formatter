@@ -6,5 +6,5 @@ You need .Net Framework 4.5 or newer
 **Releases are into the folder** 
 
 
-![Screenshot : ](http://i.imgur.com/ZGSbaGI.png)
+![Screenshot : ](http://i.imgur.com/X8hyp1r.png)
 
