@@ -29,6 +29,10 @@ namespace JPServFormatWin32Portable
         
         private void button_Click(object sender, RoutedEventArgs e)
         {
+            if (ip.Text.Contains("ws://"))
+            {
+                ip.Text = ip.Text.ToString().Substring(ip.Text.IndexOf(@"//") + 2);    
+            }
             results.Text = @"[size=30][url]http://agar.io/?ip=" + ip.Text + "[/url][/size]";
         }
 

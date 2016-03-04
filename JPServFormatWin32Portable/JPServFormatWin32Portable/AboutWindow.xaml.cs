@@ -19,9 +19,11 @@ namespace JPServFormatWin32Portable
     /// </summary>
     public partial class AboutWindow : Window
     {
+        public string version { get; set; } = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
         public AboutWindow()
         {
             InitializeComponent();
+            textBlock1.Text = version;
         }
 
         private void button_Click(object sender, RoutedEventArgs e)

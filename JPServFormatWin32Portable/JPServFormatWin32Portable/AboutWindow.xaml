@@ -11,6 +11,7 @@
         <Label x:Name="label" Content="Server Formater" HorizontalAlignment="Center" Margin="73,10,73,0" VerticalAlignment="Top" Height="45" Width="268" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="29.333"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="89,60,87,141" TextWrapping="Wrap" Text="Created by jeuxjeux20 for the JP chat" Width="239" TextAlignment="Center"/>
         <Button x:Name="button" Content="OK" Margin="151,134,151,47" FontSize="21.333" FontWeight="Bold" Click="button_Click"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="19" Width="66"/>
 
     </Grid>
 </Window>
