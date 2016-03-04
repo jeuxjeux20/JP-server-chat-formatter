@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JPServFormatWin32Portable"
         mc:Ignorable="d" ResizeMode="CanMinimize"
-        Title="Server Formatter" Height="368.182" Width="504.545">
+        Title="Server Formatter" Height="348.48" Width="519.321">
     <Grid>
-        <Label x:Name="ServFormatterLabel" Content="Server Formatter" Margin="75,0,67,255" FontSize="40" FontWeight="Normal" HorizontalContentAlignment="Center" Height="58" HorizontalAlignment="Center"/>
+        <Label x:Name="ServFormatterLabel" Content="Server Formatter" Margin="75,22,66,233" FontSize="40" FontWeight="Normal" HorizontalContentAlignment="Center" Height="58" HorizontalAlignment="Center" Width="361"/>
         <Label x:Name="label" Content="Type the ip here (even with ws://)" Height="25" Margin="146,78,0,0" VerticalAlignment="Top" Width="219" HorizontalContentAlignment="Center" FontSize="10.667" HorizontalAlignment="Left"/>
         <TextBox x:Name="results" HorizontalAlignment="Left" Height="110" Margin="75,153,0,0" TextWrapping="Wrap" Text="Results here" Width="361" FontSize="14.667" VerticalAlignment="Top"/>
         <Grid x:Name="IP" HorizontalAlignment="Left" Height="45" Margin="75,103,0,0" VerticalAlignment="Top" Width="361">
@@ -16,7 +16,7 @@
             <Button x:Name="getResult" Content="Get the code" HorizontalAlignment="Left" Margin="206,10,0,0" VerticalAlignment="Top" Width="130" Click="button_Click"/>
         </Grid>
         <Button x:Name="copyButton" Click="copyButton_Click"  Content="Copy" Margin="146,268,0,0" VerticalAlignment="Top" Width="207" Height="24" FontWeight="Bold" FontSize="13.333" HorizontalAlignment="Left"/>
-        <Menu x:Name="menu" Height="22" VerticalAlignment="Top" Width="499">
+        <Menu x:Name="menu" Height="22" VerticalAlignment="Top">
             <MenuItem x:Name="about" Header="About..." Click="about_Click"/>
         </Menu>
 
