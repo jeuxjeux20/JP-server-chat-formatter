@@ -47,5 +47,15 @@ namespace JPServFormatWin32Portable
             about.Owner = this;
             about.ShowDialog();
         }
+
+        private void paste_Click(object sender, RoutedEventArgs e)
+        {
+            ip.Text = Clipboard.GetText();
+        }
+
+        private void ip_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
