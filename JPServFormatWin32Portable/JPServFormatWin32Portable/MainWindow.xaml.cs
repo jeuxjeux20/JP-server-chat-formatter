@@ -51,7 +51,7 @@ namespace JPServFormatWin32Portable
             {
                 ip.Text = ip.Text.ToString().Substring(ip.Text.IndexOf(@"//") + 2);
             }
-            results.Text = $@"[size={size}][url]http://agar.io/?ip=" + ip.Text + "[/url][/size]";
+            results.Text = @"[size={size}][url]http://agar.io/?ip=" + ip.Text + "[/url][/size]";
         }
 
         private void copyButton_Click(object sender, RoutedEventArgs e)
