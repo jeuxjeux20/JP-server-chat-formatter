@@ -11,7 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
+using System.ComponentModel;
+using static System.Reflection.Assembly;
 namespace JPServFormatWin32Portable
 {
     /// <summary>
@@ -19,16 +20,34 @@ namespace JPServFormatWin32Portable
     /// </summary>
     public partial class AboutWindow : Window
     {
-        public string version { get; set; } = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
         public AboutWindow()
         {
             InitializeComponent();
-            textBlock1.Text = version;
+            DataContext = new VersionInfo();
+            
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            Close();
+            
+        }
+    }
+    /// <summary>
+    /// The version
+    /// </summary>
+    public class VersionInfo
+    {
+        public VersionInfo()
+        {
+            version = GetExecutingAssembly().GetName().Version.ToString();
+        }
+        private string _version;
+
+        public string version
+        {
+            get { return _version; }
+            set { _version = value; }
         }
     }
 }
